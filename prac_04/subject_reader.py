@@ -6,6 +6,10 @@ Data file -> lists program
 FILENAME = "subject_data.txt"
 
 
+def display_subject_details(subjects_data):
+    pass
+
+
 def main():
     """Program to load and display subject data from file."""
     data = load_data(FILENAME)
