@@ -21,8 +21,11 @@ def display_subjects(subjects_data):
 
 def subject_details(data):
 
-def load_data(filename=FILENAME):
-    """Read data from file formatted like: subject,lecturer,number of students."""
+
+def load_subjects(filename=FILENAME):
+    """Read data from file formatted like: subject,lecturer,number of students.
+    Returns a list of lists, each containing [subject_code, lecturer_name, student_count]."""
+    subjects_list = []
     input_file = open(filename)
     for line in input_file:
         print(line)  # See what a line looks like
