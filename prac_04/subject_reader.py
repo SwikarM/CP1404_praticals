@@ -12,8 +12,12 @@ def display_subject_details(subjects_data):
 
 def main():
     """Program to load and display subject data from file."""
-    data = load_data(FILENAME)
-    print(data)
+    subjects_data = load_subjects(FILENAME)
+    display_subjects(subjects_data)
+
+def display_subjects(subjects_data):
+    for subject in subjects_data:
+        print(f"{subject[0]} is taught by {subject[1]} and has {subject[2]} students")
 
 def subject_details(data):
 
