@@ -11,6 +11,7 @@ def main():
     data = load_data(FILENAME)
     print(data)
 
+def subject_details(data):
 
 def load_data(filename=FILENAME):
     """Read data from file formatted like: subject,lecturer,number of students."""
