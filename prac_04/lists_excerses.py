@@ -24,3 +24,10 @@ usernames = [
     'BaseInterpreterInterface', 'BaseStdIn', 'Command', 'ExecState',
     'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob'
 ]
+# Ask for username and check access
+username = input("Enter your username: ")
+
+if username in usernames:
+    print("Access granted")
+else:
+    print("Access denied")
