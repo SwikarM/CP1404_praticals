@@ -6,7 +6,7 @@ def main():
     # Create an unreliable car with 50% reliability
     unreliable_car = UnreliableCar("Old Clunker", 100, 50.0)
 
-    # Test driving multiple times
+    # Test-driving multiple times
     successful_drives = 0
     total_attempts = 100
 
