@@ -1,7 +1,7 @@
 """
 CP1404 Week 11 Workshop - GUI program to convert miles to kilometres
 swikar mainali, IT@JCU
-06/10/2015
+28/07/2026
 """
 
 from kivy.app import App

@@ -1,8 +1,8 @@
 """
 CP1404/CP5632 Practical
 Project Management Program
-Estimated time: 6 hours
-Actual time: 7 hours
+Estimated time: 2 hours
+Actual time: 3 hours
 """
 
 import datetime
